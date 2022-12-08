@@ -17,11 +17,11 @@ const Create: NextPage = () => {
           <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={() => { console.log("temporaty form sub") }}>
             <div>
               <div className="align-bottom mb-4">
-                <Image className="inline-block w-10 h-10" src="/logo-arkea.png" alt="logo société arkea" />
+                <Image width={40} height={40} className="inline-block w-10 h-10" src="/logo-arkea.png" alt="logo société arkea" />
                 <span>Création d&aposun nouveau client</span>
               </div>
               <div className="flex h-10 mb-4">
-                <Image src="/info.png" alt="logo information" className="object-contain flex-initial"/>
+                <Image width={20} height={20} src="/info.png" alt="logo information" className="object-contain flex-initial"/>
                 <span className="flex-initial">Veuillez remplir le formulaire ci-dessous pour créer votre compte client.</span>
               </div>
             </div>

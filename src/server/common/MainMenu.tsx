@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { type FC } from 'react';
 import Image from 'next/image';
 import Link from "next/link";
 
@@ -7,7 +7,7 @@ const MainMenu: FC = () => {
     <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-6">
       <Link href="/">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <Image src="/Arkea-logo.svg" className="h-6 mr-3 sm:h-9" alt="App logo" />
+          <Image src="/Arkea-logo.svg" height={84} width={84} className="h-6 mr-3 sm:h-9" alt="App logo" />
           <span className="font-semibold text-xl tracking-tight">Arkea by Nicolas</span>
         </div>
         <div className="block lg:hidden">

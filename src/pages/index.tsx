@@ -32,7 +32,7 @@ const Home: NextPage = () => {
             </p>
           </div>
           <div>
-            <Image src="/julien-carmona-candidat-a-la-presidence-d-arkea_5603855.jpg" alt="les locaux d&aposarkea"/>
+            <Image height={1000} width={1000} src="/julien-carmona-candidat-a-la-presidence-d-arkea_5603855.jpg" alt="les locaux d&aposarkea"/>
           </div>
         </div>
         <div>
