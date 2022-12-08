@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
+import Image from "next/image";
 import MainMenu from "../../server/common/MainMenu";
 
 const Create: NextPage = () => {
@@ -14,14 +14,14 @@ const Create: NextPage = () => {
       <main>
         <MainMenu />
         <div className="flex justify-center m-20">
-          <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={() => { }}>
+          <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" onSubmit={() => { console.log("temporaty form sub") }}>
             <div>
               <div className="align-bottom mb-4">
-                <img className="inline-block w-10 h-10" src="/logo-arkea.png" alt="logo société arkea" />
-                <span>Création d'un nouveau client</span>
+                <Image className="inline-block w-10 h-10" src="/logo-arkea.png" alt="logo société arkea" />
+                <span>Création d&aposun nouveau client</span>
               </div>
               <div className="flex h-10 mb-4">
-                <img src="/info.png" alt="logo information" className="object-contain flex-initial"/>
+                <Image src="/info.png" alt="logo information" className="object-contain flex-initial"/>
                 <span className="flex-initial">Veuillez remplir le formulaire ci-dessous pour créer votre compte client.</span>
               </div>
             </div>

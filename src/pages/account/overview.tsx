@@ -1,6 +1,5 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import MainMenu from "../../server/common/MainMenu";
 
 const Overview: NextPage = () => {
@@ -24,8 +23,8 @@ const Overview: NextPage = () => {
           social est implanté au Relecq-Kerhuon dans le Finistère.
         </p>
         <p>
-          Crédit Mutuel Arkéa est l'une des six caisses fédérales du Crédit Mutuel. Il s'agit de la seconde caisse fédérale en termes
-          d'importance au sein du groupe Crédit Mutuel, après le Crédit Mutuel Alliance Fédérale et avant le Crédit Mutuel Nord Europe.
+          Crédit Mutuel Arkéa est l&aposune des six caisses fédérales du Crédit Mutuel. Il s&aposagit de la seconde caisse fédérale en termes
+          d&aposimportance au sein du groupe Crédit Mutuel, après le Crédit Mutuel Alliance Fédérale et avant le Crédit Mutuel Nord Europe.
           </p>
       </main>
     </>

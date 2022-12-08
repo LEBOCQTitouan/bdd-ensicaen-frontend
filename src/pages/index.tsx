@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
+import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import MainMenu from "../server/common/MainMenu";
 
 const Home: NextPage = () => {
@@ -15,8 +15,8 @@ const Home: NextPage = () => {
         <MainMenu />
         <div className="m-10 grid grid-cols-2 gap-10">
           <div>
-            <h1>Bienvenue sur notre mini projet de banque sur le thème d'Arkea !</h1>
-            <h2>Akea c'est quoi?</h2>
+            <h1>Bienvenue sur notre mini projet de banque sur le thème d&aposArkea !</h1>
+            <h2>Akea c&aposest quoi?</h2>
             <p>
               Le Crédit Mutuel Arkéa est un groupe de bancassurance coopératif et mutualiste en France.
             </p>
@@ -27,12 +27,12 @@ const Home: NextPage = () => {
               social est implanté au Relecq-Kerhuon dans le Finistère.
             </p>
             <p>
-              Crédit Mutuel Arkéa est l'une des six caisses fédérales du Crédit Mutuel. Il s'agit de la seconde caisse fédérale en termes
-              d'importance au sein du groupe Crédit Mutuel, après le Crédit Mutuel Alliance Fédérale et avant le Crédit Mutuel Nord Europe.
+              Crédit Mutuel Arkéa est l&aposune des six caisses fédérales du Crédit Mutuel. Il s&aposagit de la seconde caisse fédérale en termes
+              d&aposimportance au sein du groupe Crédit Mutuel, après le Crédit Mutuel Alliance Fédérale et avant le Crédit Mutuel Nord Europe.
             </p>
           </div>
           <div>
-            <img src="/julien-carmona-candidat-a-la-presidence-d-arkea_5603855.jpg" alt="les locaux d'arkea"/>
+            <Image src="/julien-carmona-candidat-a-la-presidence-d-arkea_5603855.jpg" alt="les locaux d&aposarkea"/>
           </div>
         </div>
         <div>
